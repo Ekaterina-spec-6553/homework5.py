@@ -12,6 +12,6 @@ mutable_list = ["Idea", 456, 789, [321, 654], True]
 mutable_list[0] = "Surprise"
 mutable_list.remove(789)
 mutable_list.extend("Moscow")
-mutable_list[2][1] = 123
+mutable_list[2] = [123, 369]
 mutable_list.append("Travelling")
 print(mutable_list)
